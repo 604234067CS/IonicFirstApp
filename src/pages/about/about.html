@@ -1,11 +1,22 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+
+        <ion-item >
+            <ion-icon name='md-help-buoy' ></ion-icon>
+              sing in
+        </ion-item>
+
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+  <ion-item>  
+    <ion-label>FirstName</ion-label>
+    <ion-input type="text" [(ngModel)]="personName"></ion-input>
+  </ion-item>
 
+    <button ion-button color="dark" full (click)="showGreeting(personName)">Show Greeting</button>
+ 
 </ion-content>

@@ -1,13 +1,69 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>HomePage</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to IonicFirstApp</h2>
-  <p>
-      Thannaphat :0
-  </p>
+  <h2>Button</h2>
+  <button ion-button>button</button>
+  <button ion-button color="light">Light</button>
+  <button ion-button color="secondary">secondary</button>
+  <button ion-button color="danger">danger</button>
+  <button ion-button color="dark">dark</button>
+  <button ion-button color="Pink">Pink</button>
+  <button ion-button color="girl">girl</button>
+
+  <h2>Clear Button</h2>
+  <button ion-button color="light" clear>Light</button>
+  <button ion-button color="secondary" clear>secondary</button>
+  <button ion-button color="danger" clear>danger</button>
+  <button ion-button color="dark" clear>dark</button>
+  <button ion-button color="Pink" clear>Pink</button>
+  <button ion-button color="girl" clear>girl</button>
   
+  <h2>Round Button</h2>
+  <button ion-button color="girl" round>girl</button>
+  <button ion-button color="danger" round>danger</button>
+  <button ion-button color="dark" round>dark</button>
+  <button ion-button color="Pink" round>Pink</button>
+   
+  <h2>Outline Button</h2>
+  <button ion-button color="danger" outline round>danger</button>
+  <button ion-button color="dark" outline round>dark</button>
+  
+  <h2>Full Button</h2>
+  <button ion-button color="Pink" full>pink</button>
+  <button ion-button color="dark" full>dark</button>
+
+  
+  <h2>Button Size</h2>
+  <button ion-button color="danger" small>danger</button>
+  <button ion-button color="dark" >dark</button>
+  <button ion-button color="girl" large>girl</button>
+  <h2>Icon Button</h2>
+  <button ion-button>
+    <ion-icon name="home" icon-left></ion-icon>
+    home
+  </button>
+  <button ion-button >
+    <ion-icon name="logo-facebook"></ion-icon>
+  </button>
+  <button ion-button icon-only >
+      <ion-icon name="add"></ion-icon>
+  </button>
+
+  <h2>Badges</h2>
+  <ion-item >
+      <ion-icon name='md-help-buoy' ></ion-icon>
+      Peter parker 
+      <ion-badge color="girl">999,999,999,999,999,999,999</ion-badge>
+  </ion-item>
+
+  <ion-item>
+      <ion-icon name='md-aperture' large></ion-icon>
+      <ion-icon></ion-icon>
+      I am BATMAN
+      <button ion-button color="girl" large>**************************</button>
+  </ion-item>
 </ion-content>
